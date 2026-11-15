@@ -1,79 +1,40 @@
+# Mauricio Alejandro Vargas Ortega
+**Ingeniería Comercial | Desarrollador Python — FinOps, Automatización de Procesos y Modelamiento Cuantitativo**  
+Universidad de Los Lagos — Osorno, Chile  
+[Perfil de LinkedIn](https://www.linkedin.com/in/mauricio-vargas-ortega/)
 
-<div align="center">
-
-# Hola, soy Mauricio Alejandro Vargas Ortega 👋
-
-**Ingeniería Comercial (Universidad de Los Lagos — Osorno, Chile) · Automatización, FinOps y Desarrollo en Python**
-
-Construyo herramientas prácticas que unen **finanzas, tributación, gestión comercial e ingeniería de software**: desde motores de auditoría DTE y conciliación bancaria hasta plataformas interactivas en Streamlit y sistemas de gestión multi-repositorio.
-
-[![Abrir Super Hub](https://img.shields.io/badge/🚀_EXPLORAR_SUPER_HUB_EN_VIVO-1E3A8A?style=for-the-badge&logo=streamlit&logoColor=white)](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-mauriciovargas1516--ux-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mauriciovargas1516-ux)
-[![Ubicación](https://img.shields.io/badge/Osorno,_Los_Lagos-Chile-0039A6?style=for-the-badge)](#)
-
-</div>
+Desarrollo de motores de cálculo financiero, pipelines de automatización empresarial en la nube (Google Cloud Platform / Linux), administración programática multi-repositorio, auditoría tributaria electrónica (SII) y plataformas analíticas interactivas de soporte a la toma de decisiones.
 
 ---
 
-## 🎯 Proyecto Destacado: Super Hub & Central de Mando Multi-Repositorio
+## I. Plataformas Interactivas en Vivo (Streamlit Cloud)
 
-### [`github-context-extractor`](https://github.com/mauriciovargas1516-ux/github-context-extractor) — [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/)
+Acceso directo a los sistemas desplegados en producción y su impacto operativo frente al flujo manual tradicional:
 
-Plataforma centralizada en **Python + Streamlit** que actúa como centro de operaciones para todo este portafolio de repositorios:
-
-* **Super Extractor de Contexto (4 niveles):** Compila repositorios completos en RAM vía `codeload`, incluyendo un modo **Mapa Arquitectónico (AST)** para auditar los 11+ repositorios juntos en un solo prompt de IA, con descargas en `.TXT`, `.ZIP` por repositorio o tomos equilibrados.
-* **Central de Mando GitHub (CMS Remoto):** Administración en lote de `About`, `Topics`, `requirements.txt`, `README.md`, `.streamlit/config.toml` y despliegue masivo (*Broadcast*) de archivos vía GitHub REST API, con autenticación segura en el servidor.
-* **Visor Quirúrgico de Google Drive API:** Extracción directa de páginas exactas de PDFs alojados dentro de respaldos `.zip` en Drive usando peticiones **HTTP Byte-Range** y renderizado con **Mozilla PDF.js**.
-
----
-
-## 💼 Proyectos Comerciales, FinOps e Ingeniería
-
-Soluciones orientadas a automatización operativa, control financiero-tributario e ingeniería paramétrica:
-
-| Proyecto | Enfoque y Capacidades | Stack Principal |
-| :--- | :--- | :--- |
-| [**`motor-auditor-dte-finops`**](https://github.com/mauriciovargas1516-ux/motor-auditor-dte-finops) | Extracción, auditoría automática de Documentos Tributarios Electrónicos (DTEs) y detección preventiva de pagos duplicados. | `Python` · `FinOps` · `DTE/SII` |
-| [**`motor-conciliador-chile`**](https://github.com/mauriciovargas1516-ux/motor-conciliador-chile) | Cruce y conciliación automatizada entre cartolas bancarias y documentos tributarios chilenos. | `Python` · `Pandas` · `Conciliación` |
-| [**`insumaes-woocommerce-automation`**](https://github.com/mauriciovargas1516-ux/insumaes-woocommerce-automation) | Pipeline automatizado para sincronización de inventario, precios y catálogo en WooCommerce sobre infraestructura cloud. | `Python` · `WooCommerce API` · `GCP` |
-| [**`motor-planos-sec-te1-chile`**](https://github.com/mauriciovargas1516-ux/motor-planos-sec-te1-chile) | Motor paramétrico para generación automática de planos eléctricos AutoCAD (`.dxf`) y cálculos normativos SEC TE1. | `Python` · `ezdxf` · `Streamlit` |
+| Sistema / Módulo | Área de Aplicación y Capacidades | Mejora vs. Flujo Manual | Código Fuente | Plataforma Web |
+| :--- | :--- | :---: | :--- | :--- |
+| **Super Hub y Central de Mando GitHub** | Extractor multi-repositorio en RAM (volcado total, firmas AST y partición en tomos), CMS remoto por lotes vía GitHub REST API (`About`, `Topics`, `requirements.txt`, `README.md` y despliegue masivo) y lectura quirúrgica HTTP Byte-Range sobre respaldos `.zip` en Google Drive API con visor PDF.js. | **99,8%** (`450x` más rápido) | [github-context-extractor](https://github.com/mauriciovargas1516-ux/github-context-extractor) | [![Abrir Sistema](https://img.shields.io/badge/STREAMLIT_APP-ABRIR_SISTEMA-334155?style=flat-square&logo=streamlit&logoColor=white)](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/) |
+| **Simulador de Finanzas Avanzadas** | Evaluación de activos reales, estructura de capital (CAPM/WACC), FCL, FCI, amortización francesa, sensibilidad multiescenario y simulación de Monte Carlo (hasta 50.000 iteraciones) con exportación a Excel de 6 hojas con fórmulas vivas. | **99,4%** (`163x` más rápido) | [FINANZAS-AVANZADAS-2026](https://github.com/mauriciovargas1516-ux/FINANZAS-AVANZADAS-2026) | [![Abrir Sistema](https://img.shields.io/badge/STREAMLIT_APP-ABRIR_SISTEMA-107C41?style=flat-square&logo=streamlit&logoColor=white)](https://finanzas-avanzadas-2026-nxvqzsfrrtgu9e92javcli.streamlit.app/) |
+| **Suite de Evaluación de Proyectos** | Formulación y evaluación privada, social y ambiental bajo normativa SNI / MIDESO 2026 (precios sociales, microeconomía de Fontaine, Matriz de Leopold, Marco Lógico) con compilación automática en 1 clic de informe Word institucional, PDF y libros Excel dinámicos en `.zip`. | **99,6%** (`230x` más rápido) | [PROYECTOS-2026](https://github.com/mauriciovargas1516-ux/PROYECTOS-2026) | [![Abrir Sistema](https://img.shields.io/badge/STREAMLIT_APP-ABRIR_SISTEMA-1E3A8A?style=flat-square&logo=streamlit&logoColor=white)](https://proyectos-2026-ubfvxgpqmpp5z7dn6wlnn3.streamlit.app/) |
+| **Suite de Gestión Tributaria** | Normativa del Código Tributario, simulador de Rentas (1ª y 2ª Categoría LIR), liquidación de IVA / proporcionalidad y remanente UTM F29 (DL 825 / Ley 21.420) y analítica del Plan de Gestión de Cumplimiento Tributario (PGCT 2026 SII). | **99,3%** (`144x` más rápido) | [GESTION-TRIBUTARIA-2026](https://github.com/mauriciovargas1516-ux/GESTION-TRIBUTARIA-2026) | [![Abrir Sistema](https://img.shields.io/badge/STREAMLIT_APP-ABRIR_SISTEMA-0F172A?style=flat-square&logo=streamlit&logoColor=white)](https://gestion-tributaria-2026-avecwdhabftj7rjnx5knmb.streamlit.app/) |
+| **Motor de Análisis Territorial** | Plataforma de 8 módulos: técnicas de análisis regional SII (ILPES / Shift & Share MADE), convergencia econométrica REAT, movilidad de Quah, redes empresariales animadas (Dini 2010 / UCINET / Boisier ELITE) y ordenamiento territorial (Rondinelli, Guttman y PROT en 97 comunas). | **99,4%** (`180x` más rápido) | [DESARROLLO-Y-GESTION-TERRITORIAL-2026](https://github.com/mauriciovargas1516-ux/DESARROLLO-Y-GESTION-TERRITORIAL-2026) | [![Abrir Sistema](https://img.shields.io/badge/STREAMLIT_APP-ABRIR_SISTEMA-0284C7?style=flat-square&logo=streamlit&logoColor=white)](https://desarrollo-y-gestion-territorial-2026-ec6keylhsgra88s77bkl6f.streamlit.app/) |
 
 ---
 
-## 🎓 Ecosistema Académico Interactivo — ULagos 2026
+## II. Motores de Automatización Empresarial, FinOps e Ingeniería (Python)
 
-Aplicaciones web de apoyo analítico, cálculo financiero-tributario y consulta metodológica desarrolladas durante mi formación en Ingeniería Comercial:
-
-| Plataforma / Cátedra | Repositorio | App en Vivo |
-| :--- | :--- | :---: |
-| **Evaluación Integrada de Proyectos (FDIC26)** — Modelamiento de flujos, VAN/TIR y evaluación económica | [`PROYECTOS-2026`](https://github.com/mauriciovargas1516-ux/PROYECTOS-2026) | [![Abrir](https://img.shields.io/badge/Streamlit-Abrir_App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://proyectos-2026-ubfvxgpqmpp5z7dn6wlnn3.streamlit.app/) |
-| **Finanzas Avanzadas** — Valoración, riesgo, estructura de capital y herramientas cuantitativas | [`FINANZAS-AVANZADAS-2026`](https://github.com/mauriciovargas1516-ux/FINANZAS-AVANZADAS-2026) | [![Abrir](https://img.shields.io/badge/Streamlit-Abrir_App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://finanzas-avanzadas-2026-nxvqzsfrrtgu9e92javcli.streamlit.app/) |
-| **Gestión Tributaria para la Toma de Decisiones** — Análisis normativo y simulaciones tributarias en Chile | [`GESTION-TRIBUTARIA-2026`](https://github.com/mauriciovargas1516-ux/GESTION-TRIBUTARIA-2026) | [![Abrir](https://img.shields.io/badge/Streamlit-Abrir_App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://gestion-tributaria-2026-avecwdhabftj7rjnx5knmb.streamlit.app/) |
-| **Desarrollo y Gestión Territorial** — Indicadores, análisis regional y herramientas de diagnóstico territorial | [`DESARROLLO-Y-GESTION-TERRITORIAL-2026`](https://github.com/mauriciovargas1516-ux/DESARROLLO-Y-GESTION-TERRITORIAL-2026) | [![Abrir](https://img.shields.io/badge/Streamlit-Abrir_App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://desarrollo-y-gestion-territorial-2026-ec6keylhsgra88s77bkl6f.streamlit.app/) |
-| **Sincronizador ULagos Virtual** — Automatización híbrida de respaldo y destilación documental desde Moodle | [`moodle-hybrid-scraper`](https://github.com/mauriciovargas1516-ux/moodle-hybrid-scraper) | `CLI / Python` |
+| Repositorio | Arquitectura y Función Operativa | Impacto Operativo | Stack Principal |
+| :--- | :--- | :---: | :--- |
+| **[insumaes-woocommerce-automation](https://github.com/mauriciovargas1516-ux/insumaes-woocommerce-automation)** | ERP Omnicanal en la nube (42 funciones activas): sincronización delta cada 3s de inventario y precios entre WooCommerce y Mercado Libre, CRM B2B en SQLite (~204 ciudades y 445 cotizaciones), traspasador multicanal (Mercado Libre, Falabella, Paris, Lider, Shopify) y auditoría de márgenes. | **630 hrs/año ahorradas** (`95,3%` mejora) | `Python` `GCP VM` `SQLite` `REST APIs` |
+| **[motor-planos-sec-te1-chile](https://github.com/mauriciovargas1516-ux/motor-planos-sec-te1-chile)** | Motor paramétrico para generación automatizada de planos eléctricos interiores y rurales en AutoCAD (`.dxf`), cuadros de cargas nativos, cálculo de caída de tensión y clasificación normativa TE1 (D.S. N° 92/83) ante la SEC. | **98,5% reducción** tiempo dibujo CAD | `Python` `ezdxf` `Streamlit` `Tkinter` |
+| **[motor-auditor-dte-finops](https://github.com/mauriciovargas1516-ux/motor-auditor-dte-finops)** | Pipeline de auditoría forense para Cuentas por Pagar (AP) y Cuentas por Cobrar (AR): extracción vectorial de PDFs, validación de RUT/Folio ante el SII y bloqueo preventivo de pagos duplicados con exportación estructurada a Excel. | **99,6% velocidad** auditoría DTE | `Python` `pdfplumber` `Pandas` `Regex` |
+| **[motor-conciliador-chile](https://github.com/mauriciovargas1516-ux/motor-conciliador-chile)** | Sistema de conciliación bancaria corporativa en 3 fases (agrupación de lotes, cruce exacto por RUT/monto y emparejamiento difuso) con detección automática de cabeceras y reportes de excepciones en Excel. | **99,2% reducción** cruce cartolas | `Python` `Pandas` `TheFuzz` `OpenPyXL` |
+| **[moodle-hybrid-scraper](https://github.com/mauriciovargas1516-ux/moodle-hybrid-scraper)** | Extractor documental de arquitectura híbrida: autenticación en formularios dinámicos mediante captura de sesión y descarga masiva de alta velocidad por peticiones HTTP directas. | **99,0% ahorro** descarga masiva | `Python` `Selenium` `Requests` `BS4` |
 
 ---
 
-## 🛠️ Stack Tecnológico y Herramientas
+## III. Stack Técnico
 
-<div align="left">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Google Drive API](https://img.shields.io/badge/Google_Drive_API-34A853?style=for-the-badge&logo=googledrive&logoColor=white)
-![GitHub API](https://img.shields.io/badge/GitHub_REST_API-181717?style=for-the-badge&logo=github&logoColor=white)
-![WooCommerce](https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
-* **Automatización e Integraciones:** GitHub REST API, Google Drive API (HTTP Byte-Range), WooCommerce REST API, Web Scraping y pipelines ETL en Python.
-* **Análisis y Documentación Técnica:** Modelamiento financiero, auditoría tributaria/DTE, `openpyxl`, `pypdf`, `ezdxf` (CAD paramétrico) y fórmulas en $\LaTeX$.
-
----
-
-<div align="center">
-  <sub>Portafolio administrado centralizadamente mediante <a href="https://github.com/mauriciovargas1516-ux/github-context-extractor">Super Hub & Central de Mando Multi-Repositorio</a> · Osorno, Chile</sub>
-</div>
+* **Lenguajes y Entornos:** Python 3, R (REAT / R Markdown), SQL (SQLite), Bash / Cron (Linux Debian/Ubuntu).
+* **Librerías de Ingeniería, Datos y Documentación:** Pandas, NumPy, SciPy, NumPy-Financial, Plotly, Matplotlib, NetworkX, OpenPyXL, python-docx, pypdf, pdfplumber, BeautifulSoup4, TheFuzz, ezdxf.
+* **Infraestructura, APIs y Despliegue:** Google Cloud Platform (Compute Engine / IAM / Google Drive API), Streamlit Cloud, Git / GitHub REST API, Integración con APIs REST (WooCommerce, Mercado Libre, Dropbox).
