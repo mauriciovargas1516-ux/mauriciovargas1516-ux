@@ -1,45 +1,58 @@
-# Mauricio Alejandro Vargas Ortega
+# ERP Omnicanal Insumaes Cloud — Arquitectura y Caso de Producción
 
-**Ingeniería Comercial | Desarrollador Python — FinOps, Automatización de Procesos y Modelamiento Cuantitativo**  
-Universidad de Los Lagos — Osorno, Chile  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mauricio_Vargas_Ortega-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mauricio-vargas-ortega/)
-[![Super Hub](https://img.shields.io/badge/Streamlit_Cloud-Super_Hub_y_Central_de_Mando-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/)
+**Sistema en Producción (Código Privado) | Tienda en Vivo:** [www.insumaes.cl](https://www.insumaes.cl)  
+**Alcance:** 42 funciones operativas | 2.509 ítems sincronizados (WooCommerce + Mercado Libre) | CRM B2B SQLite | Arquitectura UI/UX CSS3
 
-Desarrollo de motores de cálculo financiero, pipelines de automatización empresarial en la nube (Google Cloud Platform / Linux), administración programática multi-repositorio, auditoría tributaria electrónica (SII) y plataformas analíticas interactivas de soporte a la toma de decisiones.
+Sistema de automatización empresarial desplegado sobre Google Cloud Platform (Linux VM) para sincronizar inventario en tiempo real, resguardar márgenes comerciales, estructurar catálogo técnico e-commerce y consolidar inteligencia comercial B2B a partir de múltiples fuentes de datos.
 
-## I. Plataformas Interactivas en Vivo (Streamlit Cloud)
+---
 
-Resumen ejecutivo de los sistemas desplegados en producción, ahorro frente al flujo manual tradicional y enlaces directos a la aplicación en vivo, volcado de contexto (`.txt`) y código fuente (`.zip`):
+## 1. Impacto Operativo Medido (Flujo Manual vs. Arquitectura Cloud)
 
-| Plataforma y Repositorio | Especialidad Principal | Manual vs. Cloud (Mejora) | Accesos Directos |
-| :--- | :--- | :---: | :---: |
-| **Super Hub y Central de Mando**<br>[github-context-extractor](https://github.com/mauriciovargas1516-ux/github-context-extractor) | Extractor multi-repo en RAM, firmas AST, CMS vía GitHub API y visor Drive PDF.js | **7,5 hrs → 1 min**<br>`99,8% (450x)` | [Abrir App](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/) · [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=github-context-extractor&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/github-context-extractor/archive/refs/heads/main.zip) |
-| **Suite de Evaluación de Proyectos**<br>[PROYECTOS-2026](https://github.com/mauriciovargas1516-ux/PROYECTOS-2026) | Evaluación privada, social y ambiental (SNI / MIDESO 2026, Fontaine, Leopold) | **46,0 hrs → 12 min**<br>`99,6% (230x)` | [Abrir App](https://proyectos-2026-boqbuffwgsafjmtq7nezgh.streamlit.app/) · [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=PROYECTOS-2026&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/PROYECTOS-2026/archive/refs/heads/main.zip) |
-| **Simulador de Finanzas Avanzadas**<br>[FINANZAS-AVANZADAS-2026](https://github.com/mauriciovargas1516-ux/FINANZAS-AVANZADAS-2026) | Valoración CAPM/WACC, FCL/FCI, Monte Carlo (50k) y Excel con fórmulas vivas | **24,5 hrs → 9 min**<br>`99,4% (163x)` | [Abrir App](https://finanzas-avanzadas-2026-nxvqzsfrrtgu9e92javcli.streamlit.app/) · [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=FINANZAS-AVANZADAS-2026&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/FINANZAS-AVANZADAS-2026/archive/refs/heads/main.zip) |
-| **Motor de Análisis Territorial**<br>[DESARROLLO-Y-GESTION-TERRITORIAL-2026](https://github.com/mauriciovargas1516-ux/DESARROLLO-Y-GESTION-TERRITORIAL-2026) | 9 módulos: SII/ILPES, REAT, redes en vivo (Dini/UCINET), PROT y simulación teórica | **18,0 hrs → 6 min**<br>`99,4% (180x)` | [Abrir App](https://desarrollo-y-gestion-territorial-2026-azi4k3liecm2g45r97lkff.streamlit.app/) · [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=DESARROLLO-Y-GESTION-TERRITORIAL-2026&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/DESARROLLO-Y-GESTION-TERRITORIAL-2026/archive/refs/heads/main.zip) |
-| **Suite de Gestión Tributaria**<br>[GESTION-TRIBUTARIA-2026](https://github.com/mauriciovargas1516-ux/GESTION-TRIBUTARIA-2026) | Código Tributario, Renta LIR (1ª y 2ª Cat.), IVA F29 (Ley 21.420) y PGCT SII | **11,5 hrs → 5 min**<br>`99,3% (144x)` | [Abrir App](https://gestion-tributaria-2026-avecwdhabftj7rjnx5knmb.streamlit.app/) · [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=GESTION-TRIBUTARIA-2026&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/GESTION-TRIBUTARIA-2026/archive/refs/heads/main.zip) |
-| **Sincronizador ULagos Virtual**<br>[moodle-hybrid-scraper](https://github.com/mauriciovargas1516-ux/moodle-hybrid-scraper) | Extracción documental concurrente de PDFs, Excels y cápsulas desde Moodle | **6,0 hrs → 2 min**<br>`99,4% (180x)` | [Abrir App](https://moodle-hybrid-scraper-dcwiyhxggcp9uzk8l5tbd9.streamlit.app/) · [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=moodle-hybrid-scraper&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/moodle-hybrid-scraper/archive/refs/heads/main.zip) |
+La automatización de procesos recurrentes alcanza una mejora consolidada de eficiencia del **95,3%** (**21,2x más rápido**), equivalente a **52,5 horas ahorradas al mes** y **630,0 horas al año** (**75,0 jornadas laborales completas**):
 
-### Detalle Arquitectónico de las Plataformas en Vivo
+| Proceso Operativo / Comercial | Volumen Activo | Manual vs. Cloud | Ahorro (Mes / Año) | Mejora (Velocidad) |
+| :--- | :--- | :---: | :---: | :---: |
+| **1. Sincronización Stock y Precios (Woo + ML)** | 2.509 ítems (550 cambios/mes) | 23,8 hrs vs. **0,9 hrs** | **22,9 hrs/mes** (274,8 hrs/año) | **96,2% (26,4x)** |
+| **2. Emisión y Cruce de Cotizaciones B2B** | 141 cot/mes (445 en SQL) | 18,8 hrs vs. **1,2 hrs** | **17,6 hrs/mes** (211,2 hrs/año) | **93,6% (15,7x)** |
+| **3. Estandarización HTML/CSS y Auto-Linker ISO** | 752 fichas vinculadas | 7,5 hrs vs. **0,2 hrs** | **7,3 hrs/mes** (87,6 hrs/año) | **97,3% (37,5x)** |
+| **4. Estandarización de Fotos (800x720) y Categorías** | 1.727 prods (100 ajustes/mes) | 5,0 hrs vs. **0,3 hrs** | **4,7 hrs/mes** (56,4 hrs/año) | **94,0% (16,7x)** |
+| **TOTAL OPERACIÓN CONTINUA** | **2.509 ítems + CRM B2B** | **55,1 hrs vs. 2,6 hrs** | **52,5 hrs/mes (630,0 hrs/año)** | **95,3% (21,2x)** |
 
-- **Super Hub y Central de Mando GitHub (`github-context-extractor`):** Extractor multi-repositorio en RAM (volcado total, firmas AST y tomos), CMS remoto por lotes vía GitHub REST API (`About`, `requirements.txt`, `README.md`, despliegue masivo) y lectura HTTP Byte-Range sobre Google Drive API con visor PDF.js.
-- **Suite de Evaluación de Proyectos (`PROYECTOS-2026`):** Formulación y evaluación privada, social y ambiental bajo normativa SNI / MIDESO 2026 (precios sociales, microeconomía de Fontaine, Matriz de Leopold, Marco Lógico) con compilación en 1 clic de Word, PDF y libros Excel dinámicos en `.zip`.
-- **Simulador de Finanzas Avanzadas (`FINANZAS-AVANZADAS-2026`):** Evaluación de activos reales, estructura de capital (CAPM/WACC), FCL, FCI, amortización francesa, sensibilidad multiescenario y simulación de Monte Carlo (50.000 iteraciones) con exportación a Excel de 6 hojas con fórmulas vivas.
-- **Motor de Análisis Territorial (`DESARROLLO-Y-GESTION-TERRITORIAL-2026`):** Plataforma interactiva de 9 módulos con técnicas de análisis regional SII (ILPES, Shift & Share MADE, Silva Lira CEPAL), convergencia econométrica REAT, movilidad de Quah, constructor de redes empresariales en vivo (Dini 2010 / UCINET / ELITE), ordenamiento territorial (97 comunas) y laboratorio de simulación teórica (Krugman, Perroux, Granovetter, Christaller).
-- **Suite de Gestión Tributaria (`GESTION-TRIBUTARIA-2026`):** Normativa del Código Tributario, simulador de Rentas (1ª y 2ª Categoría LIR), liquidación de IVA / proporcionalidad y remanente UTM F29 (DL 825 / Ley 21.420) y analítica del Plan de Gestión de Cumplimiento Tributario (PGCT 2026 SII).
+### Eficiencia en Procesos Masivos por Lote y Expansión Omnicanal
 
-## II. Motores de Automatización Empresarial, FinOps e Ingeniería (Python)
+| Proceso Masivo de Catálogo o Analítica Comercial | Tiempo Manual | Tiempo Cloud | Mejora (Multiplicador) |
+| :--- | :---: | :---: | :---: |
+| **Vinculación bidireccional de venta cruzada en 752 fichas técnicas** | 43,9 horas | **4,0 minutos** | **99,8% (658,5x)** |
+| **Consolidación de cartera nacional (~204 ciudades) en SQLite** | 18,0 horas | **1,8 minutos** | **99,8% (600,0x)** |
+| **Consulta 360 de cliente, RUT, historial y cotizaciones** | 15,0 minutos | **0,01 segundos (SQL)** | **99,9% (90.000x)** |
+| **Auditoría de márgenes líquidos y diferencias de precio (782 ítems ML vs. Web)** | 19,5 horas | **3,0 segundos** | **99,9% (23.400x)** |
+| **Transformación de catálogo (1.500 SKUs activos) para 5 canales externos** | 772,7 horas | **2,3 horas** | **99,7% (336,0x)** |
 
-| Repositorio | Función Operativa | Impacto Medido | Stack Principal | Descargas |
-| :--- | :--- | :---: | :--- | :---: |
-| **ERP Omnicanal Insumaes Cloud**<br>`insumaes-woocommerce-automation` | ERP Omnicanal en la nube (42 funciones), sincronización delta 3s WooCommerce/MeLi y CRM B2B SQLite | **630 hrs/año ahorradas**<br>`95,3% (55,1 → 2,6 hrs/mes)` | `Python` `GCP VM` `SQLite` `REST APIs` | `Privado (Producción)` |
-| **[motor-planos-sec-te1-chile](https://github.com/mauriciovargas1516-ux/motor-planos-sec-te1-chile)** | Generación paramétrica de planos eléctricos AutoCAD (`.dxf`), cuadros de cargas y memoria TE1 SEC | **98,5% reducción**<br>tiempo dibujo CAD | `Python` `ezdxf` `Streamlit` `Tkinter` | [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=motor-planos-sec-te1-chile&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/motor-planos-sec-te1-chile/archive/refs/heads/main.zip) |
-| **[motor-auditor-dte-finops](https://github.com/mauriciovargas1516-ux/motor-auditor-dte-finops)** | Auditoría forense AP/AR: extracción vectorial PDF, validación SII y bloqueo de pagos duplicados | **99,6% velocidad**<br>auditoría masiva DTE | `Python` `pdfplumber` `Pandas` `Regex` | [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=motor-auditor-dte-finops&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/motor-auditor-dte-finops/archive/refs/heads/main.zip) |
-| **[motor-conciliador-chile](https://github.com/mauriciovargas1516-ux/motor-conciliador-chile)** | Conciliación bancaria en 3 fases (lotes, cruce exacto RUT/monto y emparejamiento difuso) | **99,2% reducción**<br>cruce de cartolas | `Python` `Pandas` `TheFuzz` `OpenPyXL` | [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=motor-conciliador-chile&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/motor-conciliador-chile/archive/refs/heads/main.zip) |
-| **[moodle-hybrid-scraper](https://github.com/mauriciovargas1516-ux/moodle-hybrid-scraper)** | Captura autenticada de sesión y descarga masiva por peticiones HTTP concurrentes | **99,0% ahorro**<br>descarga documental | `Python` `Selenium` `Requests` `BS4` | [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=moodle-hybrid-scraper&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/moodle-hybrid-scraper/archive/refs/heads/main.zip) |
+---
 
-## III. Stack Técnico
+## 2. Arquitectura del Sistema por Capas
 
-- **Lenguajes y Entornos:** Python 3, R (REAT / R Markdown), SQL (SQLite), Bash / Cron (Linux Debian/Ubuntu).
-- **Librerías de Ingeniería, Datos y Documentación:** Pandas, NumPy, SciPy, NumPy-Financial, Plotly, Matplotlib, NetworkX, OpenPyXL, python-docx, pypdf, pdfplumber, BeautifulSoup4, TheFuzz, ezdxf.
-- **Infraestructura, APIs y Despliegue:** Google Cloud Platform (Compute Engine / IAM / Google Drive API), Streamlit Cloud, Git / GitHub REST API, Integración con APIs REST (WooCommerce, Mercado Libre, Dropbox).
+El ecosistema opera de forma modular en 5 capas de ingeniería backend más una capa de arquitectura front-end e-commerce:
+
+| Capa del Sistema | Responsabilidad Técnica |
+| :--- | :--- |
+| **1. Núcleo de Control y Telemetría** | Panel centralizado en consola con 42 funciones, interruptores en caliente sin reinicio, telemetría de latencia API en tiempo real, bitácoras separadas por canal y envío automatizado de reportes ejecutivos. |
+| **2. Motor Delta 24/7 y Reglas de Precisión** | Demonio residente en RAM que monitorea cambios en la planilla maestra cada 3 segundos e inyecta únicamente deltas en 0,35 a 1,08 segundos. Incluye colchón configurable de inventario, cortafuegos anti-errores de precio (bloqueo en 0,01s), emparejamiento tolerante a formatos de SKU/código y lógica de paquetes/cajas cerradas. |
+| **3. Suite WooCommerce y Arquitectura UI/UX** | Administración masiva vía REST API: vinculación cruzada de compatibilidad ISO (752 fichas), estandarización automatizada de imágenes (800x720 px), ajuste porcentual de precios con ofertas tachadas y reversión instantánea. Incluye arquitectura **CSS3 modular** desplegada en producción sobre `insumaes.cl` (mega-menú industrial responsive, grilla de tarjetas con micro-interacciones, árbol jerárquico de categorías en 3 niveles y extracción programática de respaldo estético en Python). |
+| **4. Integración Mercado Libre & POS** | Sincronización de inventario sobre 782 publicaciones con candado de protección de precios, entorno piloto de pruebas unitarias, instantáneas de respaldo/restauración masiva, terminal compatible con pistola lectora de códigos de barra (EAN/SKU) y generador PDF vectorial de etiquetas Code128. |
+| **5. CRM SQLite B2B y Trampolín Multicanal** | Base relacional SQLite en modo solo lectura que indexa 445 cotizaciones B2B y cartera comercial de ~204 ciudades. Incluye auditor de márgenes líquidos (descontando comisiones y logística), detector de brechas entre canales y exportador universal estructurado para Mercado Libre, marketplaces de retail y Shopify. |
+
+---
+
+## 3. Stack Técnico
+
+- **Backend y Automatización:** Python 3, Pandas, NumPy, OpenPyXL, Pillow (PIL), SQLite3, ThreadPoolExecutor, Bash / Cron.
+- **Infraestructura y APIs:** Google Cloud Platform (Compute Engine Linux VM), WooCommerce REST API v3, Mercado Libre API (OAuth2), Dropbox API, SMTP.
+- **Front-End E-Commerce:** HTML5, CSS3 modular (Grid, Flexbox, variables, transiciones y micro-animaciones sin sobrecarga JS), WordPress / WooCommerce / Elementor.
+
+---
+
+## 4. Confidencialidad
+
+El código fuente operativo, los archivos de configuración, las credenciales de integración y las bases de datos comerciales residen en un repositorio privado de producción. La operación e interfaz pública resultante pueden verificarse directamente en [https://www.insumaes.cl](https://www.insumaes.cl).
