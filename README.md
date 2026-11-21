@@ -4,6 +4,8 @@
 Universidad de Los Lagos — Osorno, Chile  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mauricio_Vargas_Ortega-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mauricio-vargas-ortega/)
 [![Super Hub](https://img.shields.io/badge/Streamlit_Cloud-Super_Hub_y_Central_de_Mando-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/)
+[![Portafolio TXT](https://img.shields.io/badge/Contexto_Total-Todos_los_Repos_%28TXT%29-24292F?style=flat-square&logo=github&logoColor=white)](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=ALL&auto=1)
+[![README Raw](https://img.shields.io/badge/Perfil-README.md_%28Raw%29-555555?style=flat-square&logo=markdown&logoColor=white)](https://raw.githubusercontent.com/mauriciovargas1516-ux/mauriciovargas1516-ux/main/README.md)
 
 Desarrollo de motores de cálculo financiero, pipelines de automatización empresarial en la nube (Google Cloud Platform / Linux), administración programática multi-repositorio, auditoría tributaria electrónica (SII) y plataformas analíticas interactivas de soporte a la toma de decisiones.
 
@@ -27,6 +29,7 @@ Resumen ejecutivo de los sistemas desplegados en producción, ahorro frente al f
 - **Simulador de Finanzas Avanzadas (`FINANZAS-AVANZADAS-2026`):** Evaluación de activos reales, estructura de capital (CAPM/WACC), FCL, FCI, amortización francesa, sensibilidad multiescenario y simulación de Monte Carlo (50.000 iteraciones) con exportación a Excel de 6 hojas con fórmulas vivas.
 - **Motor de Análisis Territorial (`DESARROLLO-Y-GESTION-TERRITORIAL-2026`):** Plataforma interactiva de 9 módulos con técnicas de análisis regional SII (ILPES, Shift & Share MADE, Silva Lira CEPAL), convergencia econométrica REAT, movilidad de Quah, constructor de redes empresariales en vivo (Dini 2010 / UCINET / ELITE), ordenamiento territorial (97 comunas) y laboratorio de simulación teórica (Krugman, Perroux, Granovetter, Christaller).
 - **Suite de Gestión Tributaria (`GESTION-TRIBUTARIA-2026`):** Normativa del Código Tributario, simulador de Rentas (1ª y 2ª Categoría LIR), liquidación de IVA / proporcionalidad y remanente UTM F29 (DL 825 / Ley 21.420) y analítica del Plan de Gestión de Cumplimiento Tributario (PGCT 2026 SII).
+- **Sincronizador ULagos Virtual (`moodle-hybrid-scraper`):** Captura autenticada de sesión (`Selenium`) y extracción documental concurrente por peticiones HTTP (`Requests` / `BeautifulSoup4`) para descarga masiva de PDFs, Excels y cápsulas desde Moodle.
 
 ## II. Motores de Automatización Empresarial, FinOps e Ingeniería (Python)
 
@@ -36,7 +39,6 @@ Resumen ejecutivo de los sistemas desplegados en producción, ahorro frente al f
 | **[motor-planos-sec-te1-chile](https://github.com/mauriciovargas1516-ux/motor-planos-sec-te1-chile)** | Generación paramétrica de planos eléctricos AutoCAD (`.dxf`), cuadros de cargas y memoria TE1 SEC | **98,5% reducción**<br>tiempo dibujo CAD | `Python` `ezdxf` `Streamlit` `Tkinter` | [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=motor-planos-sec-te1-chile&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/motor-planos-sec-te1-chile/archive/refs/heads/main.zip) |
 | **[motor-auditor-dte-finops](https://github.com/mauriciovargas1516-ux/motor-auditor-dte-finops)** | Auditoría forense AP/AR: extracción vectorial PDF, validación SII y bloqueo de pagos duplicados | **99,6% velocidad**<br>auditoría masiva DTE | `Python` `pdfplumber` `Pandas` `Regex` | [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=motor-auditor-dte-finops&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/motor-auditor-dte-finops/archive/refs/heads/main.zip) |
 | **[motor-conciliador-chile](https://github.com/mauriciovargas1516-ux/motor-conciliador-chile)** | Conciliación bancaria en 3 fases (lotes, cruce exacto RUT/monto y emparejamiento difuso) | **99,2% reducción**<br>cruce de cartolas | `Python` `Pandas` `TheFuzz` `OpenPyXL` | [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=motor-conciliador-chile&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/motor-conciliador-chile/archive/refs/heads/main.zip) |
-| **[moodle-hybrid-scraper](https://github.com/mauriciovargas1516-ux/moodle-hybrid-scraper)** | Captura autenticada de sesión y descarga masiva por peticiones HTTP concurrentes | **99,0% ahorro**<br>descarga documental | `Python` `Selenium` `Requests` `BS4` | [TXT](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=moodle-hybrid-scraper&auto=1) · [ZIP](https://github.com/mauriciovargas1516-ux/moodle-hybrid-scraper/archive/refs/heads/main.zip) |
 
 ## III. Stack Técnico
 
