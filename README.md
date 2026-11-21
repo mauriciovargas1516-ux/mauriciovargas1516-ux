@@ -5,7 +5,7 @@ Universidad de Los Lagos — Osorno, Chile
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mauricio_Vargas_Ortega-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mauricio-vargas-ortega/)
 [![Super Hub](https://img.shields.io/badge/Streamlit_Cloud-Super_Hub_y_Central_de_Mando-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/)
 [![Portafolio TXT](https://img.shields.io/badge/Contexto_Total-Todos_los_Repos_%28TXT%29-24292F?style=flat-square&logo=github&logoColor=white)](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=ALL&auto=1)
-[![README Raw](https://img.shields.io/badge/Perfil-README.md_%28Raw%29-555555?style=flat-square&logo=markdown&logoColor=white)](https://raw.githubusercontent.com/mauriciovargas1516-ux/mauriciovargas1516-ux/main/README.md)
+[![README TXT](https://img.shields.io/badge/Perfil-Descargar_README_%28TXT%29-555555?style=flat-square&logo=markdown&logoColor=white)](https://app-context-extractor-cl8x5kwfdodzvmx7m3vean.streamlit.app/?repo=mauriciovargas1516-ux&auto=1)
 
 Desarrollo de motores de cálculo financiero, pipelines de automatización empresarial en la nube (Google Cloud Platform / Linux), administración programática multi-repositorio, auditoría tributaria electrónica (SII) y plataformas analíticas interactivas de soporte a la toma de decisiones.
 
